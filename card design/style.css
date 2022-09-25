@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+  --red:#42f30d;
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition:all .2s linear;
+}
+
+*::selection{
+  background:var(--red);
+  color:#fff;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body{
+  background:#f7f7f7;
+}
+
+
+  
+ 
+header{
+    position: fixed;
+    top:0; left: 0; right:0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#d9a7c7;
+    padding:2rem 9%;
+    box-shadow: 0 .5rem 2rem rgba(0,0,0,.1);
+    
+  }
+
+  header .logo{
+    font-size: 2.5rem;
+    font-weight:1000;
+    color:#240b36;
+  }
+  
+  header .logo i{
+    padding-right: .5rem;
+    color:var(--red);
+  }
+  
+  header .navbar a{
+    font-size: 2.2rem;
+    font-weight:600;
+    margin-left: 2rem;
+    color:#240b36;
+  }
+  
+  header .navbar a:hover{
+    color:var(--red);
+  }
+
+  #menu-bar{
+    font-size: 3rem;
+    cursor: pointer;
+    color:#240b36;
+    border:.1rem solid #240b36;
+    border-radius: .3rem;
+    padding:.5rem 1.5rem;
+    display: none;
+  }
+
+
+  
+  
+
+/*----------------------------------------------------------- reviews ----------------------------------------------*/
+
+#review{
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right,#d9a7c7,#fffcdc,#d9a7c7);
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 5px #202031;
+}
+
+section .reviews{
+    width:60%;
+    height: 80vh;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+section .review-content{
+  background-color: #fff;
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+
+
+
+section .card{
+  background-color: #fff;
+  height: 90%;
+  position: relative;
+  width: 40%;
+  box-shadow: 0px 0px 15px 5px #202031;
+  border-radius: 22px;
+  margin: 20px;
+}
+
+
+
+
+section .card .card-content{
+  background-color: #202031;
+  width: 100%;
+  height: 30vh;
+  padding: 30px;
+  border-radius: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+section .re-image{
+  position: relative;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 18px 5px blue;
+}
+
+section .re-image img{
+  width: 140px;
+  height: 135px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  
+}
+
+.card .content{
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content .name-profession{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content .name-profession .name{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.content .name-profession .profession{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.card .rating{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px ;
+  width: 150px;
+  font-size: 18px;
+  height: 40px;
+}
+.card .rating i{
+  width: 100%;
+  align-content: center;
+  margin: 10px auto;
+  color: #090caf;
+  
+}
+
+.re-head{
+  width: 260px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 18px 5px blue;
+}
+
+
+.content .about-btn{
+  margin-top: 20px;
+}
+.content .about-btn button{
+  background-color: #090caf;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100px;
+  height: 30px;
+  
+  border-radius: 20px;
+}
+.content .social-media-icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 150px;
+  margin-top: 10px;
+  height: 100px;
+  
+}
+.content .social-media-icons i{
+  color: #240b36;
+  
+}
