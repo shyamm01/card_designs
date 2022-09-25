@@ -2,4 +2,5 @@
 multiple card designs using html css
 
 #card deesign 1:
-![card design css](https://user-images.githubusercontent.com/69836193/192133628-24515c78-58cd-44da-8f53-b3e9d503a41f.png)
+
+![card design css](https://user-images.githubusercontent.com/69836193/192134168-27f973a0-4b75-4f9e-86e3-110ae81cca45.png)
